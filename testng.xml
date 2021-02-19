@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests" thread-count="2">
+<listeners>
+<listener class-name = "properties.Listeners"/></listeners>
+<parameter name ="URL" value ="www.google.com">
+
+</parameter>
+  <test name="Personal laon">
+    <classes>
+      <class name="Day1.practiseTest">
+      <methods>
+      <exclude name="gift"/>
+      </methods>
+         </class>
+      <class name="Day1.practise2Test"/>
+    </classes>
+  </test> 
+  <test name="car laon">
+  <parameter name ="URL" value ="www.amazon.com"/>
+   <parameter name ="Username" value ="Senbiga"/>
+
+
+    <classes>
+      <class name="Day1.practise3Test">
+      <methods>
+      <exclude name="mob.*"/>
+      </methods>
+      </class>
+      <class name="Day1.practise5Test"/>
+    </classes>
+  </test> 
+    <test name="bike laon">
+    <classes>
+      <class name="Day1.practise4Test"/>
+    </classes>
+  </test> 
+</suite> 
