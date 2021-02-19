@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loan]" guice-stage="DEVELOPMENT">
+  <test name="Personal laon(failed)">
+    <classes>
+      <class name="Day1.practise">
+        <methods>
+          <include name="aftervery"/>
+          <include name="login"/>
+          <include name="gift"/>
+          <include name="beforevery"/>
+        </methods>
+      </class> <!-- Day1.practise -->
+      <class name="Day1.practise3">
+        <methods>
+          <include name="classlast"/>
+          <include name="apicarloan"/>
+          <include name="classfirst"/>
+        </methods>
+      </class> <!-- Day1.practise3 -->
+    </classes>
+  </test> <!-- Personal laon(failed) -->
+</suite> <!-- Failed suite [loan] -->

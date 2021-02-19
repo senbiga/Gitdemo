@@ -1,0 +1,10 @@
+19:20:58.152 [main] DEBUG Logdemo.loglive - I am chocolate
+19:20:58.158 [main] INFO  Logdemo.loglive - i am good
+19:20:58.158 [main] FATAL Logdemo.loglive - LOve
+19:20:58.158 [main] ERROR Logdemo.loglive - error
+19:29:33.385 [main] DEBUG Logdemo.loglive - I am chocolate
+19:29:33.390 [main] INFO  Logdemo.loglive - i am good
+19:29:33.390 [main] FATAL Logdemo.loglive - LOve
+19:29:33.390 [main] ERROR Logdemo.loglive - error
+19:29:45.809 [main] DEBUG Logdemo.loglive - I am chocolate
+19:29:45.816 [main] INFO  Logdemo.loglive - i am good

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="www.google.com"/>
+  <test name="Personal laon(failed)">
+    <classes>
+      <class name="Day1.practise">
+        <methods>
+          <include name="aftervery"/>
+          <include name="gift"/>
+          <include name="beforevery"/>
+        </methods>
+      </class> <!-- Day1.practise -->
+    </classes>
+  </test> <!-- Personal laon(failed) -->
+</suite> <!-- Failed suite [Suite] -->
